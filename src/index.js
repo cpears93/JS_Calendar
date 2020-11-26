@@ -8,7 +8,7 @@ for (let day = 1; day < 31; day++) {
 
     let name = '';
     if (day <  7) {
-        const dayTime = getDayName(day);
+        const dayName = getDayName(day);
         name = `div class="name">${dayName}</div>`;
 
     }
